@@ -16,6 +16,7 @@ read -r -p  "
 Now I know you love Michigan animals, no doubt! 
 I'm about to lay some facts on you! Press enter to get that sweet knowledge."
 
+#Array of facts
 declare arr=( "
 ** Opossums are estimated to be able to eat up to nearly 6000 ticks per week. 
 Give it up to those sweet little heroes! **
@@ -71,6 +72,7 @@ else
     May your curiosity send you back here to find out the mystery. "
 fi
 
+#Prompt user for input one last time
 echo "
     ** Would you like to know more about the $job that made this amazing experience for you? 
     Press 'y' for yes and 'n' for no. **"
